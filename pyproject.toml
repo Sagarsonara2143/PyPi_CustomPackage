@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sagarcustompackage"   # must be unique on PyPI
-version = "0.1.0"
-description = "Reusable helpers for OTP, JWT authentication, and JSON serialization"
+version = "0.1.1"
+description = "Reusable helpers for OTP, JWT authentication, and JSON serialization and Global patch for Python requests to allow TLSv1.2 with lower SECLEVEL"
 readme = "README.md"
 license = "MIT"
 authors = [
@@ -13,7 +13,8 @@ authors = [
 ]
 dependencies = [
     "pyjwt>=2.0.0",
-    "requests>=2.25.0"
+    "requests>=2.25.0",
+    "urllib3>=2.0.0"
 ]
 requires-python = ">=3.8"
 

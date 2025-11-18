@@ -24,3 +24,4 @@ Homepage = "https://github.com/Sagarsonara2143/PyPi_CustomPackage"
 
 [tool.setuptools]
 packages = ["common_helper"]
+package-dir = {"" = "CUSTOMPACKAGES"}

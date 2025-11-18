@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sagarcustompackage"
-version = "0.1.8"
+version = "0.2.1"
 description = "Reusable helpers for OTP, JWT authentication, JSON serialization, Flask request validator, and TLSv1.2 patch for Python requests."
 readme = "README.md"
 license = "MIT"
@@ -24,3 +24,4 @@ Homepage = "https://github.com/Sagarsonara2143/PyPi_CustomPackage"
 
 
 [tool.setuptools.packages.find]
+where = ["CUSTOMPACKAGES/common_helper"]

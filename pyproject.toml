@@ -4,9 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sagarcustompackage"   # must be unique on PyPI
-version = "0.1.5"
-description = "Reusable helpers for OTP, JWT authentication, and JSON serialization and Global patch for Python requests to allow TLSv1.2 with lower SECLEVEL"
+version = "0.1.6"
+description = "Reusable helpers for OTP, JWT authentication, JSON serialization, Flask request validator, and TLSv1.2 patch for Python requests."
 readme = "README.md"
+readme-content-type = "text/markdown"
 license = "MIT"
 authors = [
   { name = "Sagar Sonara", email = "sagarsonara2143@gmail.com" }
@@ -24,4 +25,8 @@ Homepage = "https://github.com/Sagarsonara2143/PyPi_CustomPackage"
 
 
 [tool.setuptools]
-packages = ["common_helper"]
+package-dir = {"" = "CUSTOMPACKAGES"}
+
+
+[tool.setuptools.packages.find]
+where = ["CUSTOMPACKAGES"]

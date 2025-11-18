@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "CUSTOMPACKAGES/**"
+      - "CUSTOMPACKAGES/common_helper/**"
       - "pyproject.toml"
       - "README.md"
 

@@ -4,10 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sagarcustompackage"
-version = "0.1.7"
+version = "0.1.8"
 description = "Reusable helpers for OTP, JWT authentication, JSON serialization, Flask request validator, and TLSv1.2 patch for Python requests."
 readme = "README.md"
-readme-content-type = "text/markdown"
 license = "MIT"
 authors = [
   { name = "Sagar Sonara", email = "sagarsonara2143@gmail.com" }

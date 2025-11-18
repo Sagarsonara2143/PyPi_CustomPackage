@@ -23,4 +23,5 @@ requires-python = ">=3.8"
 Homepage = "https://github.com/Sagarsonara2143/PyPi_CustomPackage"
 
 
-
+[tool.setuptools.packages.find]
+where = ["CUSTOMPACKAGES"]
